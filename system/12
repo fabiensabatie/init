@@ -1,0 +1,5 @@
+sudo du -h -d 1 /var
+
+ou
+
+sudo du -c /var pour afficher tous les dossiers en recursif

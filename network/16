@@ -1,0 +1,3 @@
+In admin mode, adding the following line to /etc/hosts :
+46.19.122.85 intra.42.fr
+We can redirect the IP address to the right domain.

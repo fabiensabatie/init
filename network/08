@@ -1,3 +1,2 @@
-Les IP ne sont pas similiaires entre :
-nslookup slash16.org
-nslookup slash16.org 8.8.8.8
+En faisant un whois sur le domaine slash16.org, on obtient :
+Registrar URL: https://www.bookmyname.com

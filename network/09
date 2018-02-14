@@ -1,4 +1,21 @@
-Les commandes :
-nslookup 42.fr
-nslookup 42.fr 8.8.8.8
-retournent des IP similaires.
+
+; <<>> DiG 9.8.3-P1 <<>> 42.fr
+;; global options: +cmd
+
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 55080
+;; flags: qr rd ra; QUERY: 1, ANSWER: 4, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;42.fr.                         IN      A
+
+;; ANSWER SECTION:
+42.fr.                  3600    IN      A       163.172.250.12
+42.fr.                  3600    IN      A       10.52.1.11
+42.fr.                  3600    IN      A       10.52.1.11
+42.fr.                  3600    IN      A       163.172.250.11
+
+;; Query time: 9 msec
+;; SERVER: 10.51.1.42#53(10.51.1.42)
+;; WHEN: Wed Feb 14 12:47:18 2018
+;; MSG SIZE  rcvd: 87
