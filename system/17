@@ -1,1 +1,1 @@
-sudo iptables --list-rules
+iptables --list-rules
