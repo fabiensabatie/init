@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -p1Sa "$@" | grep -v / 
+ls -p1Sa $@ | grep -v /
